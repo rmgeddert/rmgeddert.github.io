@@ -11,8 +11,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-flow: column;
 }
 
 .centered_img{
   text-align: center;
+}
+
+.chessReset{
+  margin-top: 10px;
+}
+
+.chessStatus{
+  margin-top: 10px;
 }

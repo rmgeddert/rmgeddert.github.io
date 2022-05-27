@@ -40,6 +40,10 @@
   box-shadow: inset 0 0 3px 3px yellow;
 }
 
+.highlight-red-check{
+  box-shadow: inset 0 0 3px 3px red;
+}
+
 /* .img {
   -webkit-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 title:  "Modeling Reinforcement Learning"
 ---
 
@@ -85,7 +85,7 @@ This next section is a tutorial on fitting a model of a multi-armed bandit task.
 
 Consider the following learning problem. You are at a casino, and in front of you are three slot machines. You have 100 spin tokens that you got for your birthday, where one token will let you spin one slot machine one time. You know from a friend that works at the casino that the slot machines have different average reward payouts, but you don't know which of the three has the best payout. To complicate things further, the slot machines have some randomness in their payouts. That is, sometimes they might pay out more than their average and sometimes less. Given these circumstances, what is the best strategy for maximizing the overall reward you receive from using the 100 tokens?
 
->**Technical version:** The above scenario is often written in "math-speak". This can be very unintuitive, but I include it here so you can practice mapping the accessible language above to the jargon-y language often seen in papers and textbooks.  
+>**Technical version:** The above scenario is often written in "math-speak". This can be very unintuitive, but I include it here so you can practice mapping the accessible language above to the jargon-y language often seen in papers and textbooks.
 >
 > Consider a set of 3 real distributions B = {*B*<sub>1</sub>, *B*<sub>2</sub>, *B*<sub>3</sub>}, each associated with rewards with means *u*<sub>1</sub>, *u*<sub>2</sub>, and *u*<sub>3</sub>. Given *t* in *T = 100*, what is the best strategy for maximizing your overall reward?
 
