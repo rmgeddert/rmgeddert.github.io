@@ -20,6 +20,9 @@
 
 .archive__item {
   position: relative;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   a {
     position: relative;
@@ -46,6 +49,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  text-decoration: none;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -85,7 +89,22 @@
   }
 }
 
+.title_link{
+  text-decoration: none;
+}
+
+// .portfolio_image{
+//   // to center images in div
+//   display: inline-block;
+//   vertical-align: middle;
+//   margin: auto;
+// }
+
 .archive__item-teaser {
+  // // to center images in div
+  // display: inline-block;
+  // vertical-align: middle;
+
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
@@ -240,7 +259,7 @@
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
+  // margin-bottom: 1em;
   border-bottom: 1px solid $border-color;
 
   .archive__item-title {

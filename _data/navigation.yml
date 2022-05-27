@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Teaching & Mentoring"
+    url: /teaching_mentoring/
+  - title: "Certificates"
+    url: /certificates/
+  - title: "Resume"
+    url: /assets/pdfs/Raphael_Geddert_Resume.pdf
