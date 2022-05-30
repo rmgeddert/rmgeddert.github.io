@@ -53,7 +53,7 @@ function onDrop2(source, target){
   removeRedSquares2();
   updateStatus2();
 
-  // make random legal move for black
+  // make best legal move for black
   window.setTimeout(makeBestMove2, 250)
 }
 
@@ -178,33 +178,52 @@ function getPieceValue2(piece){
 
 function getBestMove2(){
   let possibleMoves = game2.moves()
+  if (possibleMoves.length === 0) return
 
   // initialize best eval and move for current player
-  let bestMove = null;
-  let bestEval;
+  let bestMoves = [];
+  let worstPossibleEval;
   if (game2.turn() == 'w') {
-    bestEval = -9999
+    worstPossibleEval = -9999
   } else {
-    bestEval = 9999
+    worstPossibleEval = 9999
   }
+  let bestEval = worstPossibleEval;
 
   // find move with best evalation for current player
   for (let i = 0; i < possibleMoves.length; i++) {
-    let newMove = possibleMoves[i]
+    let newMove = possibleMoves[i];
+    let newMoveEval;
+
+    // get evaluation of game after making move
     game2.move(newMove);
-    let newMoveEval = evaluateBoard2(game2.board());
+    if (game2.in_checkmate()) {
+      newMoveEval = -worstPossibleEval //maximize score
+    } else if (game2.in_draw()){
+      newMoveEval = 0;
+    } else {
+      newMoveEval = evaluateBoard2(game2.board());
+    }
     game2.undo()
 
+    // if same score, add to list of options
+    if (newMoveEval == bestEval) {
+      bestMoves.push(newMove)
+    }
+
+    // if greater (or less) than bestEval, replace bestMoves
     if (game2.turn() == 'w' && newMoveEval > bestEval) {
-      bestMove = newMove
+      bestMoves = [newMove]
       bestEval = newMoveEval
     } else if (game2.turn() == 'b' && newMoveEval < bestEval) {
-      bestMove = newMove
+      bestMoves = [newMove]
       bestEval = newMoveEval
     }
   }
 
-  return bestMove;
+  // finally, return random choice from among bestMoves
+  console.log(bestMoves);
+  return bestMoves[Math.floor(Math.random() * bestMoves.length)];
 }
 
 function makeBestMove2(){

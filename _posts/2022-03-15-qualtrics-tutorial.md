@@ -24,7 +24,7 @@ blockquote > * {
 }
 </style>
 
-Online data collection lies at the heart of modern psychology research. It is fast, easy, and allows for the collection of huge data sets in very little time. In this tutorial, I cover one of the most popular tools for  
+Online data collection lies at the heart of modern psychology research. It is fast, easy, and allows for the collection of huge data sets in very little time. In this tutorial, I cover one of the most popular tools for ...
 
 
 Some of the best modern tools for online data collection are [Qualtrics](https://www.qualtrics.com/) and [Amazon Mechanical Turk](https://www.mturk.com) (MTurk), both of which we will explore in this tutorial, but of course there are numerous other options and tools available, including writing your own experiments using JavaScript! We will also take a look at [Duke SONA Systems](https://psychandneuro.duke.edu/undergraduate/psychology/current-students/subject-pool), which is Duke's site for undergraduate, for-credit research participation.

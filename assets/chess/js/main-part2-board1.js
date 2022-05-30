@@ -75,19 +75,19 @@ function updateStatus1(){
   }
 
   if (game1.in_checkmate()){
-    $("#chessStatus").html("Checkmate! " + prevColor + " wins.")
+    $("#chessStatus1").html("Checkmate! " + prevColor + " wins.")
   }
 
   if (game1.in_stalemate()) {
-    $("#chessStatus").html("Draw by stalemate.")
+    $("#chessStatus1").html("Draw by stalemate.")
   }
 
   if (game1.in_threefold_repetition()){
-    $("#chessStatus").html("Draw by threefold repetition.")
+    $("#chessStatus1").html("Draw by threefold repetition.")
   }
 
   if (game1.insufficient_material()){
-    $("#chessStatus").html("Draw by insufficient material.")
+    $("#chessStatus1").html("Draw by insufficient material.")
   }
 }
 
@@ -144,7 +144,7 @@ function onMouseoutSquare1(square, piece){
 function makeRandomMove1(){
   let possibleMoves = game1.moves()
 
-  // game1 over
+  // game over
   if (possibleMoves.length === 0) return
 
   let randomIdx = Math.floor(Math.random() * possibleMoves.length)

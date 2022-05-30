@@ -59,10 +59,15 @@ classes: wide
 - Advanced Pandas [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/eece08be5e739a897999cbd23075835886e6fce1fd6ec5872bcfde0bf7bd55f3?trk=share_certificate)
 - Algorithmic Thinking with Python: Foundations [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/00c96ad78aef4f0ae3bbc9ed20d8c52aa2098a39ea4231cade360b95834e179f?trk=share_certificate)
 - Python Data Structures and Algorithms [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/9753e32c7e086a1a945a46a454d99b8989baa02685d215934cd070b8dfad6f62?trk=share_certificate)
-  - Breadth First Search
-  - Depth First Search
-  - A* Search  
-  - Stacks, Queues, and Priority Queues (heaps)
+  - Breadth-First Search
+  - Depth-First Search
+  - A* Search
+  - Stacks, Queues, and Priority Queues (i.e., heaps)
+- AI Algorithms for Gaming [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/c4eb673be9c9a32524fb4ee7741cbc7a29989d3c212bf8099981452fbfd3f387?trk=share_certificate)
+  - Minimax Algorithm
+  - Alpha-Beta Pruning
+  - Depth-Limited Search
+  - Iterative Deepening
 
 ### \- Machine Learning
 - Machine Learning with Python: Foundations [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/209fe752d62a9cbe72f606edb8edca2c3651df6c4c0901056a03d969d1f16549?trk=share_certificate)
@@ -82,3 +87,5 @@ classes: wide
 ### \- Miscellaneous
 
 - Developing Chatbots with Azure [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/3ae714958e9e70cf08f0731a33fd53de79d3482bae2d14097ea927d24d7f927e?trk=share_certificate)
+- Cognitive Technologies: The Real Opportunities for Business [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/1e250dbece2e41995f1d785a3b1030b052258e3cbb666288be5f323e02bb0a41?trk=share_certificate)
+- AI The LinkedIn Way: A Conversation with Deepak Agarwal [<i class="fas fa-link" aria-hidden="true"></i>](https://www.linkedin.com/learning/certificates/1dbac6b028cc4d32685ad84d08bbe2875266358248dceea7d06cd89df1ccfc7c?trk=share_certificate)
