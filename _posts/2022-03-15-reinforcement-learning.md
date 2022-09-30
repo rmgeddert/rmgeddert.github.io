@@ -1,9 +1,10 @@
 ---
 layout: posts
 title:  "Modeling Reinforcement Learning"
+excerpt: "A resource guide and tutorial for reinforcement learning modeling of a bandit task using R and Stan."
 ---
 
-This is a resource guide and tutorial for anyone interesting in learning about reinforcement learning and how to model it. While not comprehensive, it easy an accessible starting point towards understanding RL (and neuroscience modeling  more generally) and teaches fundamental modeling skills in R and Stan.
+This is a resource guide and tutorial for anyone interested in learning about reinforcement learning and how to model it. While not comprehensive, it easy an accessible starting point towards understanding RL (and neuroscience modeling  more generally) and teaches fundamental modeling skills in R and Stan.
 
 #### Outline
 

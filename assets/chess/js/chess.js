@@ -1276,6 +1276,13 @@ var Chess = function (fen) {
     }
     move.flags = flags
 
+    // by Raphael: added captured piece to move output
+    if (move.flags.indexOf('c') != -1){
+      move.captured = Object.values(get(move.to)).reverse();
+      move.captured = move.captured[0] + move.captured[1].toUpperCase();
+    } else {
+      move.captured = null;
+    }
     return move
   }
 

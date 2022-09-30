@@ -1,5 +1,7 @@
 ---
-title: Simple Chess AI (Part 1)
+title: JavaScript Chess AI (Part 1)
+excerpt: 'In this blog post, I demonstrate the basics of coding a working chess game interface with Javascript and HTML using the chess.js and chessboard.js libraries.'
+truncateLength: 200
 ---
 
 <link rel="stylesheet" href="../assets/chess/css/styles.css">
@@ -12,6 +14,9 @@ title: Simple Chess AI (Part 1)
 My first exposure to deep reinforcement learning (a particular fascination of mine) was when Google DeepMind's AlphaZero systematically dismantled StockFish in a 100 game match back in 2017. As an avid chess enthusiast myself, I frequented chess.com's forums somewhat frequently, and to say that AlphaZero took the chess world by storm would be an understatement.
 
 Now, years later, it is my goal to create my own deep RL chess agent in the style of AlphaZero, albeit to the extent possible on just my Mac. First, however, I think it would be prudent to create a more traditional chess engine, both as a means of learning about chess algorithms but also a means of comparison later. This blog series will do just that. Let's jump right in!
+
+- <a href="/simple-chess-ai-part2"><b>Part 2:</b> A Simple Computer Opponent</a>
+- <a href="/simple-chess-ai-part3"><b>Part 3:</b> Minimax with Alpha-Beta Pruning</a>
 
 <hr>
 

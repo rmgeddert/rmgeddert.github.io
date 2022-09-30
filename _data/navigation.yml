@@ -4,8 +4,8 @@ main:
     url: /
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Tutorials"
-    url: /tutorials/
+  # - title: "Tutorials"
+  #   url: /tutorials/
   - title: "Teaching & Mentoring"
     url: /teaching_mentoring/
   - title: "Certificates"

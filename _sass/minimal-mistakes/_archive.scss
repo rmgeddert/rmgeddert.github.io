@@ -78,10 +78,15 @@
 
 .archive__item-excerpt {
   margin-top: 0;
+  margin-bottom: 3px;
   font-size: $type-size-6;
 
   & + p {
     text-indent: 0;
+  }
+
+  p {
+    margin-bottom: 0.5em;
   }
 
   a {

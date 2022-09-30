@@ -1,5 +1,7 @@
 ---
-title: Simple Chess AI (Part 2)
+title: JavaScript Chess AI (Part 2)
+excerpt: 'Part 2! In this blog post, I create the basics of a computer chess agent, first by creating a completely random agent and then one that will recapture and checkmate when able.'
+truncateLength: 200
 ---
 
 <link rel="stylesheet" href="../assets/chess/css/styles.css">
@@ -11,7 +13,10 @@ title: Simple Chess AI (Part 2)
 <script src="../assets/chess/js/main-part2-board1.js" charset="utf-8"></script>
 <script src="../assets/chess/js/main-part2-board2.js" charset="utf-8"></script>
 
-Welcome to part 2 of creating a Chess AI! If you haven't read Part 1 yet (creating a working chess game with JavaScript and HTML), you can do so [here](/simple-chess-ai-part1/). If you are just interested in the chess AI aspect, feel free to start reading here.
+Welcome to part 2 of creating a Chess AI! If you haven't read Part 1 yet (creating a working chess game with JavaScript and HTML), you can do so [here](/simple-chess-ai-part1/). If you are just interested in the chess AI algorithm aspect, feel free to start reading here.
+
+- <a href="/simple-chess-ai-part1"><b>Part 1:</b> Chess Game with Javascript and HTML</a>
+- <a href="/simple-chess-ai-part3"><b>Part 3:</b> Minimax with Alpha-Beta Pruning</a>
 
 <hr>
 

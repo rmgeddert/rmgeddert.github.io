@@ -1,5 +1,7 @@
 ---
-title: Simple Chess AI (Part 3)
+title: JavaScript Chess AI (Part 3)
+excerpt: It's time to make a proper chess AI! In this blog post, I used the minimax search algorithm combined with alpha-beta pruning to make a sophisticated chess engine.
+truncateLength: 200
 ---
 
 <link rel="stylesheet" href="../assets/chess/css/styles.css">
